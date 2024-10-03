@@ -1,0 +1,20 @@
+<suite name="my test suite" parallel="tests" thread-count="3">
+	<test name="chrometest">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="testNGcommands.TestNGAssignment1"></class>
+		</classes>
+	</test>
+	<test name="edgetest">
+		<parameter name="browser" value="edge"></parameter>
+		<classes>
+			<class name="testNGcommands.TestNGAssignment1"></class>
+		</classes>
+	</test>
+	<test name="firefoxtest">
+		<parameter name="browser" value="firefox"></parameter>
+		<classes>
+			<class name="testNGcommands.TestNGAssignment1"></class>
+		</classes>
+	</test>
+</suite>

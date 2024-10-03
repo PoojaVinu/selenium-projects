@@ -1,0 +1,9 @@
+<suite name="my test suite">
+	<test name="my test">
+	  <parameter name="para1" value="100"></parameter>
+	  <parameter name="para2" value="pooja"> </parameter>
+		<classes>
+			<class name="testNGcommands.BasicCommands"></class>
+		</classes>
+	</test>
+</suite>

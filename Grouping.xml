@@ -1,0 +1,12 @@
+<suite name="my test suite">
+	<test name="my test">
+		<groups>
+			<run>
+				<exclude name="critical"></exclude>
+			</run>
+		</groups>
+		<classes>
+			<class name="testNGcommands.GroupExecution"></class>
+		</classes>
+	</test>
+</suite>

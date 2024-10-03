@@ -1,0 +1,9 @@
+<suite name="mytestsuite">
+	<test name="mytest">
+		<classes>
+			<class name="testNGcommands.BasicCommands"></class>
+			<class name="testNGcommands.Annotations"></class>
+			
+		</classes>
+	</test>
+</suite>
